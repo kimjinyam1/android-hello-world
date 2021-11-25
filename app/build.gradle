@@ -78,4 +78,4 @@ task ktlintFormat(type: JavaExec, group: "formatting") {
     classpath = configurations.ktlint
     args "-F", "src/**/*.kt"
 }
-check.dependsOn ktlintFormat
+
