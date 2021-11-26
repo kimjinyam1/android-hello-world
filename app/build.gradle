@@ -34,7 +34,7 @@ android {
 }
 
 kotlinter {
-    ignoreFailures = true
+    ignoreFailures = false
     indentSize = 4
     reporters = ['checkstyle', 'plain']
     experimentalRules = false
